@@ -6,7 +6,7 @@
 
 Obrigado por visualizar este desafio que eu fiz.
 
-[Frontend Mentor](https://www.frontendmentor.io) Desafios me ajudam a melhorar minhas habilidades de código construíndo projetos realistas.
+Os desafios do [Frontend Mentor](https://www.frontendmentor.io) me ajudam a melhorar minhas habilidades de código construíndo projetos realistas.
 
 **Para completar este desafio eu utilizei um conhecimento básico de HTML, CSS e um pouquinho de JavaScript.**
 
