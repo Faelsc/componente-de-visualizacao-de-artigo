@@ -10,7 +10,7 @@ Os desafios do [Frontend Mentor](https://www.frontendmentor.io) me ajudam a melh
 
 **Para completar este desafio eu utilizei um conhecimento básico de HTML, CSS e um pouquinho de JavaScript.**
 
-## Table of contents
+## Conteúdos
 
 - [Geral](#geral)
   - [O desafio](#o-desafio)
