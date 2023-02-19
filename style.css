@@ -124,7 +124,7 @@ body{
 .box span{
   font-size: 0.8rem;
   font-weight: 500;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   color: hsl(212, 23%, 69%);
 }
 
