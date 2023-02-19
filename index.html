@@ -1,39 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Article preview component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="img"><img src="./images/drawers.jpg"></div>
-
-  <h1>  Shift the overall look and feel by adding these wonderful 
-    touches to furniture in your home</h1>
-
-  <p> Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.</p>
-
-  <div class="box">
-    <img class="avatar" src="./images/avatar-michelle.jpg">
-    <h1>Michelle Appleton</h1>
-    <p>28 Jun 2020</p>
-    <button><img src="./images/icon-share.svg"></button>
+<div class="container">
+  <div class="esquerda"></div>
+  <div class="direita">
+    <h3>Mude a aparência geral adicionando esses toques maravilhosos aos móveis de sua casa</h3>
+    <p>Já esteve em uma sala e sentiu que faltava algo? Talvez parecesse um pouco vazio e pouco convidativo. Tenho algumas dicas simples para ajudá-lo a tornar qualquer ambiente completo.</p>
+    <div class="autor">
+      <div class="info">
+        <img src="./images/avatar-michelle.jpg" alt="avatar" class="autor_img">
+        <div class="data__nome">
+          <span class="nome">Michelle Appleton</span>
+          <span class="data">19 Fev 2023</span>
+        </div>
+      </div>
+      <div class="box invisivel" id="boxCompartilhar">
+        <span>Compartilhe</span>
+        <img src="./images/icon-facebook.svg" alt="facebook">
+        <img src="./images/icon-twitter.svg" alt="twitter">
+        <img src="./images/icon-pinterest.svg" alt="pinterest">
+      </div>
+      <img src="./images/icon-share.svg" alt="compartilhar" class="img" id="imagemCompartilhar">
+    </div>
   </div>
-       
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+</div>
+<script src="./main.js"></script>
 </body>
 </html>
